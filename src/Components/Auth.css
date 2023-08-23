@@ -1,0 +1,50 @@
+.auth{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.auth button{
+    margin-top: 2rem;
+    background: rgb(240, 240, 240);
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 20vw;
+    height: 7vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    /* transition: 0.3s; */
+}
+.auth button:hover{
+   background: rgb(226, 226, 226);
+}
+.google-icon{
+    height: 1.5rem;
+    width: 1.5rem; 
+    margin-right: 15px;
+    background-color: rgb(240, 240, 240);
+}
+.google-icon:hover{
+    background: rgb(226, 226, 226);
+}
+@media screen and (max-width:999px){
+    .auth button{
+     width: 400px;
+     font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:480px){
+    .auth button{
+        width: 250px;
+        font-size: 1.1rem;
+       }
+}
